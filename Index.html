@@ -67,14 +67,25 @@
       cursor: pointer;
     }
   </style>
+  <script type='text/javascript' src='//pl27786242.effectivegatecpm.com/f4/29/29/f42929ffd3cd38a2ce667b260eaf0b94.js'></script>
 </head>
 <body>
 
   <div class="video-container">
-    <video id="myVideo" controls>
-      <source src="https://cdn.videy.co/xyTp1lY41.mp4" type="video/mp4">
-      Browser Anda tidak mendukung pemutar video.
-    </video>
+    <video id="myVideo" controls autoplay muted playsinline>
+  <source src="https://cdn.videy.co/N3pSzLxq1.mp4" type="video/mp4">
+</video>
+
+<script>
+  const vid = document.getElementById("myVideo");
+
+  // setelah 10 detik video otomatis pause
+  setTimeout(() => {
+    vid.pause();
+  }, 10000);   // 10000 = 10 detik
+</script>
+
+
 
     <div class="ad-banner" id="adBanner">
 <script type="text/javascript">
